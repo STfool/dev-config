@@ -5,7 +5,8 @@
         "lib": ["dom", "es2015"],
         "allowSyntheticDefaultImports": true,
         "esModuleInterop": true,
-        "moduleResolution": "node"
+        "moduleResolution": "node",
+        "resolveJsonModule": true
     },
     "include": ["script/*.ts"]
 }

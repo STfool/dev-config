@@ -1,6 +1,6 @@
 {
-    "extends": ["./packages/eslint-config-ts"],
-    "parserOptions": {
-        "project": "./tsconfig.json"
-    }
+  "extends": ["@st-fool/esling-config-ts"],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  }
 }
