@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config",
+  "name": "@st-fool/eslint-config",
   "version": "0.0.1",
   "description": "eslint config for STfool team",
   "main": "index.js",
