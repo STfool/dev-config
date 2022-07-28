@@ -1,0 +1,16 @@
+{
+  "name": "@st-fool/prettier",
+  "version": "0.0.1",
+  "description": "st-fool team prettier config",
+  "main": ".prettierrc",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/STfool/dev-config.git"
+  },
+  "keywords": [],
+  "author": "@st-fool",
+  "license": "ISC"
+}

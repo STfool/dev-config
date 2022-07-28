@@ -1,0 +1,1 @@
+# Prettier config for STfool team
