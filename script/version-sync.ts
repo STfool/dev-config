@@ -1,3 +1,3 @@
-const a = 10
+import fs from "fs";
 
-
+console.log(fs);

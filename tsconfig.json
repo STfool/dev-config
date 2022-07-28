@@ -2,7 +2,10 @@
     "compilerOptions": {
         "module": "commonjs",
         "target": "esnext",
-        "lib": ["dom", "es2015"]
+        "lib": ["dom", "es2015"],
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "moduleResolution": "node"
     },
     "include": ["script/*.ts"]
 }
