@@ -1,0 +1,34 @@
+module.exports = {
+    '@typescript-eslint/no-triple-slash-reference': 'off',
+    '@typescript-eslint/adjacent-overload-signatures': 'error',
+    '@typescript-eslint/no-var-requires': 'error',
+    '@typescript-eslint/array-type': 'off',
+    camelcase: 'off',
+    '@typescript-eslint/camelcase': 'off',
+    '@typescript-eslint/class-name-casing': 'off',
+    '@typescript-eslint/explicit-function-return-type': 'off',
+    '@typescript-eslint/ban-types': [
+      'error',
+      {
+        types: {
+          Result: 'Please use more semantic words instead of this type.',
+          Results: 'Please use more semantic words instead of this type.',
+        },
+      },
+    ],
+    indent: 'off',
+    '@typescript-eslint/indent': 'off',
+    '@typescript-eslint/member-delimiter-style': [
+      'error',
+      {
+        multiline: {
+          delimiter: 'none',
+          requireLast: false,
+        },
+      },
+    ],
+    '@typescript-eslint/no-namespace': 'error',
+    'no-unused-vars': 'off',
+    '@typescript-eslint/no-unused-vars': 'warn',
+    '@typescript-eslint/no-for-in-array': 'error',
+  }

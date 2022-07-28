@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "esnext",
+        "lib": ["dom", "es2015"]
+    },
+    "include": ["script/*.ts"]
+}

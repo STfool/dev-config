@@ -1,0 +1,21 @@
+{
+  "name": "eslint-config",
+  "version": "0.0.1",
+  "description": "eslint config for STfool team",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "rules.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "eslint": ">5.0.0"
+  },
+  "author": "STfool team",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}

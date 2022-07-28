@@ -12,5 +12,8 @@
   },
   "keywords": [],
   "author": "@st-fool",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
 }
