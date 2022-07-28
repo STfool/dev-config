@@ -13,6 +13,9 @@
   "keywords": [],
   "author": "@st-fool",
   "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "typescript": "^4.7.4"
   }
