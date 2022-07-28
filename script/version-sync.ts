@@ -16,7 +16,7 @@ async function main() {
       const content = await fs.readFile(pkgPath, 'utf-8')
       const contentJson = JSON.parse(content)
       contentJson.version = rootPkg.version
-      await fs.writeFile(packagesPath, JSON.stringify(contentJson, null, 2))
+      await fs.writeFile(pkgPath, JSON.stringify(contentJson, null, 2))
     }),
   )
   console.log(

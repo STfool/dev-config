@@ -5,7 +5,7 @@
   "description": "",
   "scripts": {
     "version-sync": "ts-node script/version-sync.ts",
-    "publish": "pnpm run version-sync && pnpm publish -r"
+    "publish": "pnpm run version-sync && pnpm -r publish"
   },
   "prettier": "@st-fool/prettier",
   "author": "@STfool",
