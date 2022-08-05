@@ -1,6 +1,6 @@
 {
   "name": "@st-fool/prettier",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "st-fool team prettier config",
   "main": "prettier.json",
   "scripts": {
@@ -15,6 +15,9 @@
   "license": "ISC",
   "publishConfig": {
     "access": "public"
+  },
+  "peerDependencies": {
+    "prettier": "*"
   },
   "devDependencies": {
     "typescript": "^4.7.4"
