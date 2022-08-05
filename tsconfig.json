@@ -1,12 +1,12 @@
 {
     "compilerOptions": {
-        "module": "commonjs",
+        "module": "NodeNext",
         "target": "esnext",
         "lib": ["dom", "es2015"],
         "allowSyntheticDefaultImports": true,
         "esModuleInterop": true,
-        "moduleResolution": "node",
+        "moduleResolution": "nodenext",
         "resolveJsonModule": true
     },
-    "include": ["script/*.ts"]
+    "include": ["script/*.ts", "script/version-sync.ts"]
 }
